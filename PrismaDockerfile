@@ -14,4 +14,5 @@ COPY . .
 RUN yarn prisma generate
 RUN yarn build
 
-CMD [ "yarn", "start" ] # start: prisma migrate deploy && node dist/main.js
+CMD [ "yarn", "start" ] 
+# start: prisma migrate deploy && node dist/<MAIN>.js
